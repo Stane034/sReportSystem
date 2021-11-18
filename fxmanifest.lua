@@ -10,7 +10,7 @@ client_script {
 }
 
 server_script { 
-    '@miami_baza/lib/MySQL.lua',
+    '@mysql-async/lib/MySQL.lua',
     'cfg.lua',
     'repSys-sv.lua',
 }
