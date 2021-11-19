@@ -28,7 +28,7 @@ RegisterCommand(Cfg.Komande.Meni, function()
         if br then
             OtvoriMeniRepova()
         else
-            ESX.showNotification('Nisi Autorizovan')
+            ESX.ShowNotification('Nisi Autorizovan')
         end
     end)
 end)
